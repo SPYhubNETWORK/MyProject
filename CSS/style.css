@@ -1,0 +1,436 @@
+/*/////////////////////////////////////////Common CSS/////////////////////////////////////////////*/
+body{
+	font-family: 
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf')  format('truetype');}
+.main{
+
+}
+
+/*this the code of our products container*/
+.heading{
+	color: brown;
+    
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Oxanium', cursive;
+}
+.navbar{
+	font-size:20px;
+	padding-left: 20px;
+    border: solid;
+    border-color: burlywood;
+    margin-bottom: 5px;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.padd{
+	padding: 30px 0px;
+	padding-bottom: 40px;
+}
+
+.padd-head{
+	padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.padd-img{
+	padding: 20px;
+}
+.para{
+	 font-family:'Poppins', sans-serif;
+}
+
+.font{
+	    font-size: 18px;
+
+}
+.aboutus{
+	background-color:snow;
+	background-size: cover;
+	font-weight:500;
+	background-repeat: no-repeat;
+	
+}
+.service{
+	background
+	background-size:cover, contain;
+	background-repeat: no-repeat;
+}
+.card{
+	border: solid;
+    border-color: darkgoldenrod;
+    margin: 10px;
+    padding: 15px;
+}
+#login{
+        margin: 18px;
+}
+.cart{
+    margin: 16px;
+}
+/*/////////////////////////////////////////Common CSS END/////////////////////////////////////////////*/
+
+/*///////////////////////////////////////Index/Home page CSS start///////////////////////////////////*/
+/* this CSS code of Home page*/
+
+.navbar ul{
+	text-decoration:none;
+	float: right;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding: 20px;
+    font-size: bold;
+    font-weight: 700;
+}
+.navbar ul a{
+	color: black;
+    font-size: medium;
+    font-family: 'Oxanium', cursive;
+    font-weight: bold;
+}
+.navbar a:hover{
+	background-color:peachpuff;
+	text-decoration: white;
+}
+.navbar img{
+	border-radius: 50%;
+	border: solid;
+}
+
+/*this the CSS of Slider*/
+.slide{
+    margin: 0px 20px;
+}
+.main-slider {
+    position: relative;
+
+}
+.slider-img {
+    position: relative;
+}
+.slider-img img {
+    width: 100%;
+    height: 650px;
+}
+.slider-text {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#slide {
+    text-align: center;
+    padding: 25px;
+}
+.textside {
+    margin-left: 0;
+    margin-right: 0;
+    display: initial;
+}
+h6 {
+    /* -webkit-text-stroke: 0.5px #000; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 70px;
+     font-family: 'Oxanium', cursive;
+    letter-spacing: 1px;
+}
+.content h1 {
+    z-index: 1;
+   font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: unset;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 42px;
+}
+.more_btn {
+    background: #f38122;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 13px 40px;
+    display: inline-block;
+    margin: 40px 0 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #602c199c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+     font-family: 'Oxanium', cursive;
+}
+.bx-wrapper {
+    border: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: none;
+}
+.slider-img:before {
+    position: absolute;
+    content: '';
+    background:#303628b8;
+}
+
+.slider-img:before {
+    /* background: #002147 none repeat scroll 0 0; */
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/*this the CSS Slider of End*/
+.ser-card{
+    margin-left: ;
+}
+/*//////////About us////////////*/
+.aboutus h4{
+	margin-right: 100px;
+    padding: 10px;
+    color: brown;
+    font-size: xx-large;
+    font-family: 'Oxanium', cursive;
+
+}
+
+.color1{
+	color: mediumblue;
+}
+.color2{
+	color: limegreen;
+}
+.aboutus p{
+    padding: 0px 10px;
+}
+.aboutus img{
+	border-radius: 50%;
+	margin-left: 80px;
+    margin-top: 40px;
+	border: solid;
+}
+
+/*////////////why us//////////*/
+.whychooseus p{
+    padding: 0px 20px;
+    font-weight: 500;
+}
+.whychooseus img{
+    margin: 0px 50px;
+}
+
+/*this the CSS Slider of End*/
+ .service .row{
+	padding: 0px 100px;
+}
+/*.product1 .card{
+	width: 200px;
+	height: 300px;
+
+}
+
+.product2 .card{
+	width: 200px;
+	height: 300px;
+}
+
+.product3 .card{
+	width: 200px;
+	height: 300px;
+}*/
+
+.dress-bann-contain{
+    background-image:url('../image/babywall.jpg');
+    background-repeat: no-repeat;
+}
+.card-text p{
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: medium;
+     font-family: 'Poppins', sans-serif;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    color: navy;
+     font-family: 'Oxanium', cursive;
+
+}
+.btn-primary {
+    color: white;
+    background-color: darkorange;
+    border-color: orange;
+}
+
+/*///////////Footer///////////////////*/
+.foot{
+	/*background-image: url('../image/baby-care-accessories-flat-lay.jpg');*/
+	background-size: cover;
+	background-color: black;
+	color: white;
+	display: block;
+	font-family: Montserrat-Regular;
+    padding-top: 50px;
+
+}
+
+
+.foot img{
+	margin-top: 20px;
+    margin-bottom: 10px;
+	border-radius: 50%;
+}
+.foot h5{
+	margin-top: 30px;
+	margin-left: 40px;
+	font-family: 'Oxanium', cursive;
+	color: darkorange;
+	}
+
+.foot-ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.foot-ul a{
+	color: white;
+
+}
+
+.foot-contain{
+	text-align: left;
+}
+/*///////////-------///////////////////*/
+/*Home page CSS End*/
+
+/*Product page CSS Start*/
+/*.div-boys{
+    border: solid;
+    border-color: burlywood;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.div-girl{
+    border: solid;
+    border-color: burlywood;
+    padding: 30px;
+    margin: 20px 105px;
+}*/
+
+.boy-heading{
+    background-image: url('../image/baby_boy.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: darkgoldenrod;
+    margin: 20px 0px;
+}
+.boy-heading .girl-heading h4{
+
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.girl-heading{
+    background-image: url('../image/baby_girl.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: darkgoldenrod;
+    margin: 20px 0px;
+}
+.product-card{
+	border-radius: 10px;
+	border:solid;
+}
+
+.div-girl{
+	    argin-top: 60px;
+}
+
+
+
+
+
+/*///////////////////////////////////////Index/Home page CSS End///////////////////////////////////*/
+
+/*Caps page CSS Start*/
+/*.caps{
+    border: solid;
+    border-color: burlywood;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}*/
+.cap-head{
+    background-image: url('../image/baby.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: darkgoldenrod;
+    margin: 20px 0px;
+
+}
+.cap-head h4{
+
+}
+
+/*caps page CSS End*/
+
+/*contactus page CSS Start*/
+
+.contact-form{
+	border: solid;
+    border-color: orange;
+    padding: 15px;
+
+}
+
+.contact-form h6 form{
+	padding: 20px;
+}
+
+.map{
+	padding: 40px 0;
+}
+
+/*contact us CSS End*/
+/*///////////About us///////////////////*/
+.about-img{
+    border:solid;
+    border-radius: 50%;
+    margin: 30px 0px;
+}
+
+.about-para {
+    color: navy;
+    font-weight: bold;
+
+}
+.head{
+    background-image: url('../image/mom-baby.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: lightseagreen;
+    border-radius: 10px;
+    margin-top: 30px;
+}
